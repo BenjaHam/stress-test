@@ -8,6 +8,60 @@
     <title></title>
   </head>
   <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress-test">
+        <div class="form-group">
+          <p>Do you have any of these warning signs of being negatively affected by stress? Check all that apply:</p>
+          <input type="checkbox" name="warning-signs" value="insomnia">Insomnia<br>
+          <input type="checkbox" name="warning-signs" value="irritability">Irritability<br>
+          <input type="checkbox" name="warning-signs" value="impatience">Impatience<br>
+          <input type="checkbox" name="warning-signs" value="muscle tension">Muscle tension<br>
+          <input type="checkbox" name="warning-signs" value="jitters">JItters<br>
+          <input type="checkbox" name="warning-signs" value="anxiety">Anxiety<br>
+          <input type="checkbox" name="warning-signs" value="inability to focus">Inability to focus<br>
+          <input type="checkbox" name="warning-signs" value="other">Another sign not listed here.<br>
+        </div>
+
+        <div class="form-group">
+          <p>Do you have any of these health conditions associated with being negatively affected by stress? Check all that apply:</p>
+          <input type="checkbox" name="health-symptoms" value="high blood pressure">High blood pressure<br>
+          <input type="checkbox" name="health-symptoms" value="anxiety">Anxiety<br>
+          <input type="checkbox" name="health-symptoms" value="arrhythmias">Arrhythmias<br>
+          <input type="checkbox" name="health-symptoms" value="headaches">Headaches<br>
+          <input type="checkbox" name="health-symptoms" value="acid reflux">Acid reflux<br>
+          <input type="checkbox" name="health-symptoms" value="chronic fatigue">Chronic fatigue<br>
+          <input type="checkbox" name="health-symptoms" value="fibromyalgia">Fibromyalgia<br>
+          <input type="checkbox" name="health-symptoms" value="other">Another health symptom not listed here.<br>
+        </div>
+
+        <div class="form-group">
+          <p>Would you like to try any of these coping methods to help reduce your stress? Check all you're interested in:</p>
+          <input type="checkbox" name="coping-methods" value="meditation">Meditation<br>
+          <input type="checkbox" name="coping-methods" value="deep breathing">Deep breathing<br>
+          <input type="checkbox" name="coping-methods" value="biofeedback">Biofeedback<br>
+          <input type="checkbox" name="coping-methods" value="exercise">Exercise<br>
+          <input type="checkbox" name="coping-methods" value="walking">Walking<br>
+          <input type="checkbox" name="coping-methods" value="knitting/crocheting">Knitting/Crocheting<br>
+          <input type="checkbox" name="coping-methods" value="visualization">Visualization<br>
+          <input type="checkbox" name="coping-methods" value="other">Another coping method not listed here.<br>
+        </div>
+        <button type="submit">Submit Survey</button>
+       </form>
+       <span id="warning-signs">
+         <p><b>You have the following warning signs of excessive stress:</b></p>
+       </span>
+       <br>
+       <span id="health-symptoms">
+         <p><b>You have the following health conditions indicating excessive stress:</b></p>
+       </span>
+       <br>
+       <span id="coping-methods">
+         <p><b>You are interested in the following methods to help reduce your stress:</b></p>
+       </span>
+    </div>
 
   </body>
 </html>
