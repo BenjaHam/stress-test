@@ -38,7 +38,7 @@
         </div>
 
         <div class="form-group">
-          <p>Would you like to try any of these coping methods to help reduce your stress? Check all you're interested in:</p>
+          <p>Do you practice any of these coping methods to help reduce your stress? Check all activities you engage in:</p>
           <input type="checkbox" name="coping-methods" value="meditation">Meditation<br>
           <input type="checkbox" name="coping-methods" value="deep breathing">Deep breathing<br>
           <input type="checkbox" name="coping-methods" value="biofeedback">Biofeedback<br>
@@ -51,16 +51,17 @@
         <button type="submit">Submit Survey</button>
        </form>
        <span id="warning-signs">
-         <p><b>You have the following warning signs of excessive stress:</b></p>
+         <p><b>Score: <span id="warning-count"></span> You have the following warning signs of excessive stress:</b></p>
        </span>
        <br>
        <span id="health-symptoms">
-         <p><b>You have the following health conditions indicating excessive stress:</b></p>
+         <p><b>Score: <span id="health-count"></span> You have the following health conditions indicating excessive stress:</b></p>
        </span>
        <br>
        <span id="coping-methods">
-         <p><b>You are interested in the following methods to help reduce your stress:</b></p>
+         <p><b>Score: <span id="coping-count"></span> You engage in the following methods to help reduce your stress:</b></p>
        </span>
+       <h2 id="running-total"></h2>
     </div>
 
   </body>
